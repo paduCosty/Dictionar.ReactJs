@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './index.css';
 
 let textArr = [];
-
 let index = 0;
+
 function App() {
   const [getWord, setWord] = useState('');
   const [checkWord, setCheck] = useState('');
